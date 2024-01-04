@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="wrapper">
       <h1 className="title">Binary to decimal converter</h1>
-      <div>
+      <div className="user-enter-wrapper">
         {error && <span className="error">{error}</span>}
         <div className="users-enter">
           <input
